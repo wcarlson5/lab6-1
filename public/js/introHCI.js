@@ -31,9 +31,10 @@ function addProjectDetails(e) {
 
 function callback(result){
 	  var projectHTML = 
-    '<img src="' + result['image'] + '" class="detailsImage">' + "</img>" +
+    
     '<p>' + result['title'] + '</p>' +
     '<p><small>' + result['date'] +
+    '<img src="' + result['image'] + '" class="detailsImage">' + "</img>" +
     '</small></p><p><small>' + result['summary'] +
     '</small></p>';
 	console.log("#project"+result.id + " .thumbnail");
