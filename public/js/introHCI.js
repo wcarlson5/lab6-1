@@ -33,9 +33,9 @@ function callback(result){
 	  var projectHTML = 
     
     '<p>' + result['title'] + '</p>' +
-    '<h><small>' + result['date'] +
-    '</h><img src="' + result['image'] + '" class="detailsImage">' + "</img>" +
-    '<p></small></p><p><small>' + result['summary'] +
+    '<p><small>' + result['date'] +
+    '<img src="' + result['image'] + '" class="detailsImage">' + "</img>" +
+    '</small></p><p><small>' + result['summary'] +
     '</small></p>';
 	console.log("#project"+result.id + " .thumbnail");
 	$("#project"+result.id + " .thumbnail").append(projectHTML);
