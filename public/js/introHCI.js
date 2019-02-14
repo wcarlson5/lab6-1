@@ -31,6 +31,8 @@ function addProjectDetails(e) {
 
 function callback(result){
 	console.log(result);
-	$(".project #"+result.id).text("nooooo")
+	$(".project #"+result.id).html("<div>foo<div>")
+
+
 
 }
