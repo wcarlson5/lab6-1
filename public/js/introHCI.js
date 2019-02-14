@@ -37,7 +37,6 @@ function callback(result){
     '<img src="' + result['image'] + '" class="detailsImage">' + "</img>" +
     '</small></p><p><small>' + result['summary'] +
     '</small></p>';
-	console.log("#project"+result.id + " .thumbnail");
 	$("#project"+result.id + " .thumbnail .details").append(projectHTML);
 
 
