@@ -37,7 +37,7 @@ function callback(result){
     '</small></p><p><small>' + result['summary'] +
     '</small></p></a>';
 	console.log(projectHTML);
-	$(".project #"+result.id).html("projectHTML");
+	$(".project #project"+result.id).html("projectHTML");
 
 
 
